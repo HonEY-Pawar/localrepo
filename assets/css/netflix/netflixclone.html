@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="./css/netflix.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="#" class="logo">
+      <img src="./css/img/netflixlogo.png" alt="Netflix Logo" />
+    </a>
+
+    <ul class="navigation">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">TV Shows</a></li>
+      <li><a href="#">Movies</a></li>
+      <li><a href="#">New & Popular</a></li>
+      <li><a href="#">My List</a></li>
+      <li><a href="#">Browse by Language</a></li>
+    </ul>
+
+    <div class="right">
+      <button class="icon-search" aria-label="Search">
+        🔍
+      </button>
+      <a href="#">Children</a>
+      <button class="icon-bell" aria-label="Notification">
+        🔔
+        <span class="notification-count">3</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Background Video Section -->
+  <div class="video-background">
+    <video autoplay loop muted playsinline>
+      <source src="./video/SPIDER-MAN.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Movie Info Content -->
+    <div class="content">
+      <img src="./img/spiderman.jpeg" alt="Movie Title" class="title-img" />
+      <div class="buttons">
+        <button class="btn play">
+          ▶ Play
+        </button>
+        <button class="btn more-info">
+          ℹ More Info
+        </button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
