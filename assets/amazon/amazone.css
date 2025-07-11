@@ -23,7 +23,7 @@
    width: 100px;
 }
 .nav-logo {
-    background-image: url("./img/Amazon-Logo-White-Transparent.png");
+    background-image: url("./image/Amazon-Logo-White-Transparent.png");
     width: 170px;
     height: 50px;
     background-size: cover;
@@ -119,7 +119,7 @@
 }
 /*-------body-image-hero-------*/
 .b-img{
-   background-image: url("./img/amazoneheropic.jpg");
+   background-image: url("./image/amazoneheropic.jpg");
    width: 100%;
    height: 450px;
    background-size: cover;
@@ -219,7 +219,7 @@ ul a{
     justify-content: center;
 }
 .logo{
-    background-image: url("./img/Amazon-Logo-White-Transparent.png");
+    background-image: url("./image/Amazon-Logo-White-Transparent.png");
     width: 170px;
     height: 50px;
     background-size: cover;
